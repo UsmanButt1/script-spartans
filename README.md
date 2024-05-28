@@ -19,18 +19,16 @@
     <br>
 
   <a href="https://github.com/scientistigwe/README-Template">
-    <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png"  align="center" alt="Project Logo" width="120" height="100%">
+    <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png"  align="center" alt="Project Logo" width="100" height="100%">
     
   </a>
 </div>
 <br>
 <br>
-  <h1 align="center">PROJECT TITLE</h1>
+  <h1 align="center">SCRIPT SPARTANS</h1>
 
   <p align="center">
-    A README template that can be adapted to suite your projects!
-    <br>
-    (Replace with a short intro sentence about your project).
+    This is a documentation of RPSLS game also code named as Spartan war.
     <br />
     <br />
     <a href="https://github.com/path-to-readme-file"><strong>Explore the docs »</strong></a>
