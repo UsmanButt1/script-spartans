@@ -1,3 +1,14 @@
+// Global variables
+var computerPlay;
+var start = 0;
+const playerImage = document.getElementById('player-image');
+const computerImage = document.getElementById('computer-image');
+const resultSpace = document.getElementById("resultSpace");
+
+// Hide quit and reset button
+document.getElementById("quit").style.display = "none";
+document.getElementById("reset").style.display = "none";
+
 const celebritiesByProfession = {
   Politics: [
     "Barack Obama (USA)",
@@ -281,3 +292,400 @@ document.addEventListener("DOMContentLoaded", function () {
     return allCelebrities[randomIndex];
   }
 });
+
+// Start button event listener
+let startButton = document.getElementById("start");
+
+startButton.addEventListener("click", function() {
+    start = 1;
+    playerImage.style.background = "";
+    computerImage.style.background = "";
+    document.getElementById("quit").style.display = "";
+    document.getElementById("start").style.display = "";
+    resultSpace.innerText = "Make your choice using the buttons and see the result here!";
+
+// setTimeOut function
+setTimeout(()=> {
+    computerImage.innerText = "Waiting for player";
+    }, 500);
+});
+
+// Quit button event listener
+let quitButton = document.getElementById("quit");
+
+quitButton.addEventListener("click", function() {
+    location.reload();
+});
+
+// Reset button event listener
+let resetButton = document.getElementById("reset");
+
+resetButton.addEventListener("click", function() {
+    location.reload();
+})
+
+// Event listeners for the player choices and run functions when selected
+let rockButton = document.getElementById("rock");
+let paperButton = document.getElementById("paper");
+let scissorsButton = document.getElementById("scissors");
+let lizardButton = document.getElementById("lizard");
+let spockButton = document.getElementById("spock");
+
+rockButton.addEventListener("click", function() {
+    if (start === 1){
+        playerChoice('rock');
+        computerChoice();
+        runGame('rock');
+    }
+});
+
+paperButton.addEventListener("click", function() {
+    if (start === 1){
+        playerChoice('paper');
+        computerChoice();
+        runGame('paper');
+    }
+});
+
+scissorsButton.addEventListener("click", function() {
+    if (start === 1){
+        playerChoice('scissors');
+        computerChoice();
+        runGame('scissors');
+    }
+});
+
+lizardButton.addEventListener("click", function() {
+    if (start === 1){
+        playerChoice('lizard');
+        computerChoice();
+        runGame('lizard');
+    }
+});
+
+spockButton.addEventListener("click", function() {
+    if (start === 1){
+        playerChoice('spock');
+        computerChoice();
+        runGame('spock');
+    }
+});
+
+// Images for Player selected game choice
+function playerChoice(playType) {
+    switch (playType) {
+        case "rock":
+            playerImage.style.background="url(assets/images/rock.png)";
+            playerImage.style.backgroundSize="cover";
+            break;
+        case "paper":
+            playerImage.style.background="url(assets/images/paper.png)";
+            playerImage.style.backgroundSize="cover";
+            break;
+        case "scissors":
+            playerImage.style.background="url(assets/images/scissors.png)";
+            playerImage.style.backgroundSize="cover";
+            break;
+        case "lizard":
+            playerImage.style.background="url(assets/images/lizard.png)";
+            playerImage.style.backgroundSize="cover";
+            break;
+        case "spock":
+            playerImage.style.background="url(assets/images/spock.png)";
+            playerImage.style.backgroundSize="cover";
+            break;
+    }
+}
+
+// Computer randomly selects game choice
+
+function computerChoice() {
+    computerPlay = Math.floor(Math.random() * 5);
+
+    switch (computerPlay) {
+        case 0:
+            computerImage.innerText = "";
+            computerImage.style.background="url(assets/images/rock.png";
+            computerImage.style.backgroundSize="cover";
+            break;
+        case 1:
+            computerImage.innerText = "";
+            computerImage.style.background="url(assets/images/paper.png";
+            computerImage.style.backgroundSize="cover";
+            break;
+        case 2:
+            computerImage.innerText = "";
+            computerImage.style.background="url(assets/images/scissors.png";
+            computerImage.style.backgroundSize="cover";
+            break;
+        case 3:
+            computerImage.innerText = "";
+            computerImage.style.background="url(assets/images/lizard.png";
+            computerImage.style.backgroundSize="cover";
+            break;
+        case 4:
+            computerImage.innerText = "";
+            computerImage.style.background="url(assets/images/spock.png";
+            computerImage.style.backgroundSize="cover";
+            break;
+    }
+}
+
+// Main game loop
+function runGame(playType) {
+    switch(computerPlay) {
+        case 0:
+            if (playType == "paper") {
+                resultMsg("rockPaper");
+                playerScore();
+            } else if
+            (playType == "spock") {
+                resultMsg("rockSpock");
+                playerScore();
+            } else if
+            (playType == "rock") {
+                resultMsg("draw");
+            } else if
+            (playType == "lizard") {
+                resultMsg("rockLizard");
+                computerScore();
+            } else {
+                resultMsg("rockScissors");
+                computerScore();
+            }
+            break;
+
+        case 1:
+            if (playType == "paper") {
+                resultMsg("draw");
+            } else if
+            (playType == "spock") {
+                resultMsg("paperSpock");
+                computerScore();
+            } else if
+            (playType == "rock") {
+                resultMsg("paperRock");
+                computerScore();
+            } else if
+            (playType == "lizard") {
+                resultMsg("paperLizard");
+                playerScore();
+            } else {
+                resultMsg("paperScissors");
+                playerScore();
+            }
+            break;
+
+        case 2:
+            if (playType == "paper") {
+                resultMsg("scissorsPaper");
+                computerScore();
+            } else if
+            (playType == "spock") {
+                resultMsg("scissorsSpock");
+                playerScore();
+            } else if
+            (playType == "rock") {
+                resultMsg("scissorsRock");
+                playerScore();
+            } else if
+            (playType == "lizard") {
+                resultMsg("scissorsLizard");
+                computerScore();
+            } else {
+                resultMsg("draw");
+            }
+            break;
+
+        case 3:
+            if (playType == "paper") {
+                resultMsg("lizardPaper");
+                computerScore();
+            } else if
+            (playType == "spock") {
+                resultMsg("lizardSpock");
+                computerScore();
+            } else if
+            (playType == "rock") {
+                resultMsg("lizardRock");
+                playerScore();
+            } else if
+            (playType == "lizard") {
+                resultMsg("draw");
+            } else {
+                resultMsg("lizardScissors");
+                playerScore();
+            }
+            break;
+
+        case 4:
+            if (playType == "paper") {
+                resultMsg("spockPaper");
+                playerScore();
+            } else if
+            (playType == "spock") {
+                resultMsg("draw");
+            } else if
+            (playType == "rock") {
+                resultMsg("spockRock");
+                computerScore();
+            } else if
+            (playType == "lizard") {
+                resultMsg("spockLizard");
+                playerScore();
+            } else {
+                resultMsg("spockScissors");
+                computerScore();
+            }
+            break;
+    }
+}
+
+// runGame outcome displays corresponding message
+
+function resultMsg (resultType) {
+    switch (resultType){
+        case "draw":
+            resultSpace.innerText = "It's a draw - have another go!";
+            resultSpace.style.borderColor = "#2C3E50";
+            break;
+
+        // Rock vs
+        case "rockPaper":
+            resultSpace.innerText = "Paper covers rock - ${playerName} wins!";
+            resultSpace.style.borderColor = "green";
+            break;
+
+        case "rockSpock":
+            resultSpace.innerText = "Spock vaporizes rock - ${playerName} wins!";
+            resultSpace.style.borderColor = "green";
+            break;
+
+        case "rockLizard":
+            resultSpace.innerText = "Rock crushes lizard - ${computerName} wins!";
+            resultSpace.style.borderColor = "red";
+            break;
+
+        case "rockScissors":
+            resultSpace.innerText = "Rock crushes scissors - ${computerName} wins!";
+            resultSpace.style.borderColor = "red";
+            break;
+
+        // Paper vs
+        case "paperRock":
+            resultSpace.innerText = "Paper covers rock - ${computerName} wins!";
+            resultSpace.style.borderColor = "red";
+            break;
+
+        case "paperScissors":
+            resultSpace.innerText = "Scissors cuts paper - ${playerName} wins!";
+            resultSpace.style.borderColor = "green";
+            break;
+
+        case "paperLizard":
+            resultSpace.innerText = "Lizard eats paper - ${playerName} wins!";
+            resultSpace.style.borderColor = "green";
+            break;
+        
+        case "paperSpock":
+            resultSpace.innerText = "Paper disproves spock - ${computerName} wins!";
+            resultSpace.style.borderColor = "red";
+            break;
+
+        // Scissors vs
+        case "scissorsRock":
+            resultSpace.innerText = "Rock crushes scissors - ${playerName} wins!";
+            resultSpace.style.borderColor = "green";
+            break;
+
+        case "scissorsPaper":
+            resultSpace.innerText = "Scissors cuts paper - ${computerName} wins!";
+            resultSpace.style.borderColor = "red";
+            break;
+
+        case "scissorsLizard":
+            resultSpace.innerText = "Scissors decapitates lizard - ${computerName} wins!";
+            resultSpace.style.borderColor = "red";
+            break;
+
+        case "scissorsSpock":
+            resultSpace.innerText = "Spock smashes scissors - ${playerName} wins!";
+            resultSpace.style.borderColor = "green";
+            break;
+
+        // Lizard vs
+        case "lizardRock":
+            resultSpace.innerText = "Rock crushes lizard - ${playerName} wins!";
+            resultSpace.style.borderColor = "green";
+            break;
+
+        case "lizardPaper":
+            resultSpace.innerText = "Lizard eats paper - ${computerName} wins!";
+            resultSpace.style.borderColor = "red";
+            break;
+
+        case "lizardScissors":
+            resultSpace.innerText = "Scissors decapitates lizard - ${playerName} wins!";
+            resultSpace.style.borderColor = "green";
+            break;
+
+        case "lizardSpock":
+            resultSpace.innerText = "Lizard poisons spock - ${computerName} wins!";
+            resultSpace.style.borderColor = "red";
+            break;
+
+        // Spock vs
+        case "spockRock":
+            resultSpace.innerText = "Spock vaporizes rock - ${computerName} wins!";
+            resultSpace.style.borderColor = "red";
+            break;
+
+        case "spockPaper":
+            resultSpace.innerText = "Paper disproves spock - ${playerName} wins!";
+            resultSpace.style.borderColor = "green";
+            break;
+
+        case "spockScissors":
+            resultSpace.innerText = "Spock smashes scissors - ${computerName} wins!";
+            resultSpace.style.borderColor = "red";
+            break;
+
+        case "spockLizard":
+            resultSpace.innerText = "Lizard poisons spock - ${playerName} wins!";
+            resultSpace.style.borderColor = "green";
+            break;
+    }
+}
+
+// If score => 5, then game-over and winner shown but if score is < 5, then score counter updated
+function playerScore() {
+    let scorePlayer = document.getElementById("scorePlayer").innerText;
+
+    if(scorePlayer <=4) {
+        document.getElementById(scorePlayer).innerText = ++scorePlayer;
+    } else {
+        resultSpace.innerText = "${playerName} wins! Click Reset to play again.";
+        resultSpace.style.backgroundColor = "green";
+        resultSpace.style.color = "white";
+        document.getElementById("reset").style.display = "";
+        document.getElementById("quit").style.display = "none";
+        document.getElementById("start").style.display = "none";
+        start = 0;
+    }
+}
+
+function computerScore() {
+    let scoreComputer = document.getElementById("scoreComputer").innerText;
+
+    if (scoreComputer <= 4) {
+        document.getElementById("scoreComputer").innerText = ++scoreComputer;
+    } else {
+        resultSpace.innerText = "Unlucky! ${computerName} wins! Click Reset to play again.";
+        resultSpace.style.backgroundColor = "red";
+        resultSpace.style.color = "white";
+        document.getElementById("reset").style.display = "";
+        document.getElementById("quit").style.display = "none";
+        document.getElementById("start").style.display = "none";
+        start = 0;
+    }
+}
