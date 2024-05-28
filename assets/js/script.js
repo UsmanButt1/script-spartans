@@ -17,7 +17,7 @@ const celebritiesByProfession = {
     "Vladimir Putin (Russia)",
     "Jacinda Ardern (New Zealand)",
     "Emmanuel Macron (France)",
-    "Justin Trudeau (Canada)",
+    "Justin Trudeau (Canada)", //continue
     "Xi Jinping (China)",
     "Boris Johnson (UK)",
     "Shinzo Abe (Japan)",
@@ -45,7 +45,7 @@ const celebritiesByProfession = {
     "Sergio Ramos (Spain)",
     "Robert Lewandowski (Poland)",
     "Virgil van Dijk (Netherlands)",
-    "Manuel Neuer (Germany)",
+    "Manuel Neuer (Germany)", //continue
     "Luis Suárez (Uruguay)",
     "Sadio Mané (Senegal)",
     "Kevin De Bruyne (Belgium)",
@@ -64,7 +64,7 @@ const celebritiesByProfession = {
     "Shah Rukh Khan (India)",
     "Priyanka Chopra (India)",
     "Daniel Craig (UK)",
-    "Penélope Cruz (Spain)",
+    "Penélope Cruz (Spain)", //continue
     "Cate Blanchett (Australia)",
     "Jean Dujardin (France)",
     "Toni Collette (Australia)",
