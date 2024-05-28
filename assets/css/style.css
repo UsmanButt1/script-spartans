@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-colour: #ECF0F1;
+    overflow-x: hidden;
+}
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+h1 {
+    color: #2C3E50;
+    text-align: center;
+}
