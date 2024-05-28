@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Script Spartans Game</title>
 </head>
@@ -14,16 +15,44 @@
         <h1>Rock - Paper - Scissors - Lizard - Spock</h1>
     </header>
     <!-- Dropdown menu to select characters -->
-    <div class="container">
-        <h3>Click the dropdown to select your character!</h3>
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Your Character</button>
-            <div class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenu2">
-                <button class="dropdown-item" type="button">Tom Cruise</button>
-                <button class="dropdown-item" type="button">Christiano Ronaldo</button>
-                <button class="dropdown-item" type="button">Ana de Armas</button>
-                <button class="dropdown-item" type="button">Selena Gomez</button>
-                <button class="dropdown-item" type="button">Dwayne Johnson</button>
+    <div style="text-align: center;">
+        <select id="profession-select">
+            <option value="Select profession">Select profession</option>
+            <option value="Politics">Politics</option>
+            <option value="Football">Football</option>
+            <option value="Movie Star">Movie Star</option>
+            <option value="Music">Music</option>
+            <option value="Literature">Literature</option>
+            <option value="Science">Science</option>
+            <option value="Business">Business</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Sports (other than football)">Sports (other than football)</option>
+            <option value="Art">Art</option>
+            <option value="CodeInstitute Spartans">CodeInstitute Spartans</option>
+        </select>
+        <select id="celebrity-select">
+
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <img src="" alt="" id="player-image">
+                <div class="card-body">
+                    <div class="card-title" id="player-name">
+                        Player
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <img src="" alt="" id="computer-image">
+                <div class="card-body">
+                    <div class="card-title" id="computer-name">
+                        Computer
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -72,7 +101,9 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
