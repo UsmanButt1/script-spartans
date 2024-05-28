@@ -64,3 +64,78 @@ margin-top: -50px;
 #start, #quit, #reset {
     cursor: pointer;
 }
+
+#rock {
+    background: url(../images/rock.png) no-repeat center center;
+    background-size: auto;
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+    border-radius: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+#rock:hover {
+    border: 5px solid #7F3333;
+}
+
+#paper {
+    background: url(../images/paper.png) no-repeat center center;
+    background-size: auto;
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+    border-radius: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+#paper:hover {
+    border: 5px solid #f49536;
+}
+
+#scissors {
+    background: url(../images/scissors.png) no-repeat center center;
+    background-size: auto;
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+    border-radius: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+#scissors:hover {
+    border: 5px solid #16537E;
+}
+
+#lizard {
+    background: url(../images/lizard.png) no-repeat center center;
+    background-size: auto;
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+    border-radius: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+#lizard:hover {
+    border: 5px solid #38761D;
+}
+
+#spock {
+    background: url(../images/spock.png) no-repeat center center;
+    background-size: auto;
+    height: 250px;
+    width: 250px;
+    margin: 5px;
+    border-radius: 150px;
+    border: none;
+    cursor: pointer;
+}
+
+#spock:hover {
+    border: 5px solid #6FA8DC;
+}
