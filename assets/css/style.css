@@ -14,7 +14,7 @@ body {
 }
 
 body > p {
-    width: 75%;
+    width: 80%;
     text-align: center;
     margin: auto;
     padding: 10px;
@@ -33,6 +33,22 @@ h1 {
     text-align: center;
 }
 
+/* Player configuration section */
+.card {
+    background-color: transparent;
+    border: none;
+margin-top: -50px;
+}
+
+
+#computer-image, #player-image{
+       width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto;
+        display: block;
+    }
 /* Start, Quit, Reset Buttons */
 #button-container {
     display: flex;
