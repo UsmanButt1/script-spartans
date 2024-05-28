@@ -1,21 +1,50 @@
+/* General styling for webpage */
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-colour: #ECF0F1;
+    background-color: #ECF0F1;
     overflow-x: hidden;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
 }
 
+body > p {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+
+/* Logo Image Styling */
 .center {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width: 15%;
+    width: 30%;
 }
 
 h1 {
     color: #2C3E50;
     text-align: center;
+}
+
+/* Start, Quit, Reset Buttons */
+#button-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#start-button, #quit-button, #reset-button {
+    margin: 5px;
+    display: inline-block;
+}
+
+#start, #quit, #reset {
+    cursor: pointer;
 }

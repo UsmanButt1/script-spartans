@@ -8,9 +8,61 @@
     <title>Script Spartans Game</title>
 </head>
 <body>
-    <img src="assets/images/script-spartan-logo.png" alt="Script Spartans" class="center">
-    <h1>Rock - Paper - Scissors - Lizard - Spock</h1>
+    <header>
+        <!-- Script Spartans team logo image -->
+        <img src="assets/images/team-logo.png" alt="Script Spartans" class="center">
+        <h1>Rock - Paper - Scissors - Lizard - Spock</h1>
+    </header>
+    <!-- Dropdown menu to select characters -->
+    <div class="container">
+        <h3>Click the dropdown to select your character!</h3>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Your Character</button>
+            <div class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button">Tom Cruise</button>
+                <button class="dropdown-item" type="button">Christiano Ronaldo</button>
+                <button class="dropdown-item" type="button">Ana de Armas</button>
+                <button class="dropdown-item" type="button">Selena Gomez</button>
+                <button class="dropdown-item" type="button">Dwayne Johnson</button>
+            </div>
+        </div>
+    </div>
+    <!-- Player Score / Computer Score Area -->
+    <div id="result">
+        <p id="resultSpace"><strong>Click the start button to begin!</strong></p>
+    </div>
+    <div id="gameDiv">
+        <div class="game-container">
+            <p>Player</p>
+            <div id="player-image"></div>
+        </div>
+        <div class="game-container">
+            <p>Computer</p>
+            <div id="computer-image"></div>
+        </div>
+    </div>
+    <div id="scoreSpace">
+        <span class="score">Player Score:</span>
+        <span id="scorePlayer"> 0 </span>
+        <span class="score">Computer Score:</span>
+        <span id="scoreComputer"> 0 </span>
+    </div>
+    <!-- Start, Quit, Reset Buttons -->
+    <div class="button-container">
+        <span id="start-button">
+            <button id="start" aria-label="Click to start game">Start</button>
+        </span>
+        <span id="quit-button">
+            <button id="quit" aria-label="Click to quit game">Quit</button>
+        </span>
+        <span id="reset-button">
+            <button id="quit" aria-label="Click to reset game">Reset</button>
+        </span>
+    </div>
+    <!-- Game icons and play area -->
 
+
+    
 
     
 
