@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const celebritySelect = document.getElementById("celebrity-select");
   const playerName = document.getElementById("player-name");
   const computerName = document.getElementById("computer-name");
-  const playerMoveName = document.getElementById("player-name");
-  const computerMoveName = document.getElementById("computer-name");
+  const playerMoveName = document.getElementById("playerMoveName");
+  const computerMoveName = document.getElementById("computerMoveName");
 
   document.getElementById("quit").style.display = "none";
   document.getElementById("reset").style.display = "none";

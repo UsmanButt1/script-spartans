@@ -4,40 +4,59 @@
     padding: 0;
 }
 
-body {
+html, body {
     background-color: #ECF0F1;
     overflow-x: hidden;
     text-align: center;
-    width: 80%;
-    max-width: 800px;
     margin: auto;
-}
-
-body > p {
-    width: 80%;
-    text-align: center;
-    margin: auto;
-    padding: 10px;
+     max-width: 75vw;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Logo Image Styling */
-.center {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+.nav img{
+    margin-top: 30px;
 }
 
-h1 {
+/* Title Elements */
+#titleElements{
+    font-size: 2.5em;
+    margin-top: 30px;
+    opacity: 0;
     color: #2C3E50;
     text-align: center;
+    font-weight: 600;
+    animation: fadeInOut 3s ease-in-out infinite;
 }
 
+@keyframes fadeInOut{
+    0%, 100% {opacity: 0}
+    50% {opacity: 1;}
+}
+
+.game-rules{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    font-size: 1.3em;
+}
+
+#profession-select, #celebrity-select{
+margin-bottom: 10px;
+background-color: transparent;
+border-radius: 10px;
+color: #2C3E50;
+}
+
+#profession-select:hover, #celebrity-select:hover{
+background-color: rgb(60, 11, 73);
+color: white;
+    border-color: rgb(3, 3, 46);
+    }
 /* Player configuration section */
 .card {
     background-color: transparent;
     border: none;
-margin-top: -50px;
 }
 
 
@@ -49,6 +68,7 @@ margin-top: -50px;
         margin: 0 auto;
         display: block;
     }
+
 /* Start, Quit, Reset Buttons */
 #button-container {
     display: flex;
@@ -65,77 +85,82 @@ margin-top: -50px;
     cursor: pointer;
 }
 
-#rock {
-    background: url(../images/rock.png) no-repeat center center;
-    background-size: auto;
-    height: 250px;
-    width: 250px;
-    margin: 5px;
-    border-radius: 150px;
-    border: none;
-    cursor: pointer;
+/*Result Space */
+#resultSpace{
+    width: fit-content;
+    margin: auto;
+    border-color: #2C3E50;
+    border-radius: 10px;
+    background-color: rgb(6, 45, 2);
+    color: #ECF0F1;
+    padding: 10px;
 }
 
-#rock:hover {
-    border: 5px solid #7F3333;
+#result-section{
+    background-color: rgb(161, 159, 161);
+    box-shadow: 10px 10px 15px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-#paper {
-    background: url(../images/paper.png) no-repeat center center;
-    background-size: auto;
-    height: 250px;
-    width: 250px;
-    margin: 5px;
-    border-radius: 150px;
-    border: none;
-    cursor: pointer;
+/* Game Area */
+#game-area{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-#paper:hover {
-    border: 5px solid #f49536;
+#game-area .col-md-2{
+    margin: 10px;
+    border-radius: 50%;
 }
 
-#scissors {
-    background: url(../images/scissors.png) no-repeat center center;
-    background-size: auto;
-    height: 250px;
-    width: 250px;
-    margin: 5px;
-    border-radius: 150px;
-    border: none;
-    cursor: pointer;
+#game-area #rock{
+    border-radius: 50%;
+    border: 15px, #46494C, solid;
+    padding: 15px;
+    box-shadow: 5px 5px 30px;
+}
+#game-area #rock:hover{
+    background-color: #46494C;
 }
 
-#scissors:hover {
-    border: 5px solid #16537E;
+#game-area #paper{
+    border-radius: 50%;
+    border: 15px, #756114, solid;
+    padding: 15px;
+    box-shadow: 5px 5px 30px;
 }
-
-#lizard {
-    background: url(../images/lizard.png) no-repeat center center;
-    background-size: auto;
-    height: 250px;
-    width: 250px;
-    margin: 5px;
-    border-radius: 150px;
-    border: none;
-    cursor: pointer;
+#game-area #paper:hover{
+    background-color: #756114;
 }
-
-#lizard:hover {
-    border: 5px solid #38761D;
+#game-area #scissors{
+    border-radius: 50%;
+    border: 15px, #533E36, solid;
+    padding: 15px;
+    box-shadow: 5px 5px 30px;
 }
+#game-area #scissors:hover{
+    background-color:  #533E36;
 
-#spock {
-    background: url(../images/spock.png) no-repeat center center;
-    background-size: auto;
-    height: 250px;
-    width: 250px;
-    margin: 5px;
-    border-radius: 150px;
-    border: none;
-    cursor: pointer;
 }
-
-#spock:hover {
-    border: 5px solid #6FA8DC;
+#game-area #lizard{
+    border-radius: 50%;
+    border: 15px, #346F1B, solid;
+    padding: 15px;
+    box-shadow: 5px 5px 30px;
+}
+#game-area #lizard:hover{
+    background-color: #346F1B;
+}
+#game-area #spock{
+    border-radius: 50%;
+    border: 15px, #361A6A, solid;
+    padding: 15px;
+    box-shadow: 5px 5px 30px;
+}
+#game-area #spock:hover{
+    background-color:  #361A6A;
 }
