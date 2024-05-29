@@ -10,15 +10,21 @@
     <title>Script Spartans Game</title>
 </head>
 
-<body>
+<div>
     <header>
-        <!-- Script Spartans team logo image -->
-        <img src="assets/images/team-logo.png" alt="Script Spartans" class="center">
-        <h1>Rock - Paper - Scissors - Lizard - Spock</h1>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-end">
+                    <img src="assets/images/team-logo.png" alt="Script Spartans" class="center" width="200">
+                </div>
+                <span id="titleElements"></span>
+                <span class="game-rules">Game Rules</span>
+            </div>
+        </nav>
     </header>
-    <!-- Dropdown menu to select characters -->
-    <div class="container-fluid">
-        <div style="text-align: center;">
+    <!-- Player Configuration -->
+    <section id="player-configuration">
+        <div class="container-fluid">
             <select id="profession-select">
                 <option value="Select profession">Select profession</option>
                 <option value="CodeInstitute Spartans">CodeInstitute Spartans</option>
@@ -33,106 +39,107 @@
                 <option value="Sports (other than football)">Sports (other than football)</option>
                 <option value="Art">Art</option>
             </select>
-        </div>
-        <div>
-            <select id="celebrity-select">
-                <option value="Select Celebrity">Select Celebrity</option>
-            </select>
-        </div>
+            <div>
+                <select id="celebrity-select">
+                    <option value="Select Celebrity">Select Celebrity</option>
+                </select>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card img-fluid">
+                        <img src="./assets/images/ansel-adams.jpg" alt="" id="player-image">
+                        <div class="card-body">
+                            <div class="card-title" id="player-name">Player</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card img-fluid">
+                        <img src="./assets/images/angela-merkel.jpg" alt="" id="computer-image">
+                        <div class="card-body">
+                            <div class="card-title" id="computer-name">Computer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
 
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card img-fluid">
-                    <img src="./assets/images/ansel-adams.jpg" alt="" id="player-image">
-                    <div class="card-body">
-                        <div class="card-title" id="player-name">
-                            Player
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="card img-fluid">
-                    <img src="./assets/images/angela-merkel.jpg" alt="" id="computer-image">
-                    <div class="card-body">
-                        <div class="card-title" id="computer-name">
-                            Computer
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Player Score / Computer Score Area -->
+    <!-- Result section -->
+    <section id="result-section">
         <div id="result">
             <p id="resultSpace"><strong>Click the start button to begin!</strong></p>
         </div>
         <div class="row" id="gameDiv">
             <div class="game-container col-md-6">
-                <p>Player</p>
-                <div id="player-image"></div>
+                <span id="playerMoveName">Player</span>
+                <div class="card img-fluid">
+                    <img src="" alt="" id="player-move-image" width="50" heigth="100%">
+                </div>
+                <div id="scorePlayer">0</div>
             </div>
             <div class="game-container col-md-6">
-                <p>Computer</p>
-                <div id="computer-image"></div>
+                <span id="computerMoveName">Computer</span>
+                <div class="card img-fluid">
+                    <img src="" alt="" id="computer-move-image" width="50" heigth="100%">
+                </div>
+                <div id="scoreComputer">0</div>
+            </div>
+
+        </div>
+        <div>
+            <div class="image-container" id="playerImage"></div>
+            <div class="image-container" id="computerImage"></div>
+        </div>
+        <div class="button-container">
+            <span id="start-button">
+                <button class="btn btn-success" id="start" aria-label="Click to start game">Start</button>
+            </span>
+            <span id="quit-button">
+                <button class="btn btn-danger" id="quit" aria-label="Click to quit game">Quit</button>
+            </span>
+            <span id="reset-button">
+                <button class="btn btn-primary" id="reset" aria-label="Click to reset game">Reset</button>
+            </span>
+        </div>
+    </section>
+
+    <!-- Game Area -->
+    <section id="game-area">
+        <div class="row">
+            <div class="col-md-2">
+                <p class="selection">Rock</p>
+                <button class="button" id="rock"><img src="./assets/images/rock.png" alt="Rock" width="80"
+                        height="100%">
+                </button>
+            </div>
+            <div class="col-md-2">
+                <p class="selection">Paper</p>
+                <button class="button" id="paper"><img src="./assets/images/paper.png" alt="Paper" width="80"
+                        height="100%"></button>
+            </div>
+            <div class="col-md-2">
+                <p class="selection">Scissors</p>
+                <button class="button" id="scissors"><img src="./assets/images/scissors.png" alt="Scissors" width="80"
+                        height="100%"></button>
+            </div>
+            <div class="col-md-2">
+                <p class="selection">Lizard</p>
+                <button class="button" id="lizard"><img src="./assets/images/lizard.png" alt="Lizard" width="80"
+                        height="100%"></button>
+            </div>
+            <div class="col-md-2">
+                <p class="selection">Spock</p>
+                <button class="button" id="spock"><img src="./assets/images/spock.png" alt="Spock" width="80"
+                        height="100%"></button>
             </div>
         </div>
-    </div>
-    <div id="scoreSpace">
-        <span class="score">Player Score:</span>
-        <span id="scorePlayer"> 0 </span>
-        <span class="score">Computer Score:</span>
-        <span id="scoreComputer"> 0 </span>
-    </div>
-    <!-- Start, Quit, Reset Buttons -->
-    <div class="button-container">
-        <span id="start-button">
-            <button class="btn btn-success" id="start" aria-label="Click to start game">Start</button>
-        </span>
-        <span id="quit-button">
-            <button class="btn btn-danger" id="quit" aria-label="Click to quit game">Quit</button>
-        </span>
-        <span id="reset-button">
-            <button class="btn btn-primary" id="reset" aria-label="Click to reset game">Reset</button>
-        </span>
-    </div>
-    <!-- Game icons and play area -->
-    <div id="game-area">
-        <div>
-            <p class="selection">Rock</p>
-            <button class="button" id="rock" aria-label="Click to choose rock"></button>
-        </div>
-        <div>
-            <p class="selection">Paper</p>
-            <button class="button" id="paper" aria-label="Click to choose paper"></button>
-        </div>
-        <div>
-            <p class="selection">Scissors</p>
-            <button class="button" id="scissors" aria-label="Click to choose scissors"></button>
-        </div>
-        <div>
-            <p class="selection">Lizard</p>
-            <button class="button" id="lizard" aria-label="Click to choose lizard"></button>
-        </div>
-        <div>
-            <p class="selection">Spock</p>
-            <button class="button" id="spock" aria-label="Click to choose spock"></button>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
-</body>
+    </body>
 
 </html>
