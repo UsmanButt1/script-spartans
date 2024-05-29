@@ -236,8 +236,6 @@ document.addEventListener("DOMContentLoaded", function () {
       "Novak Djokovic (Serbia, Tennis)",
       "Floyd Mayweather (USA, Boxing)",
       "Conor McGregor (Ireland, MMA)",
-      "Cristiano Ronaldo (Portugal, Football)",
-      "Lionel Messi (Argentina, Football)",
       "Eliud Kipchoge (Kenya, Athletics)",
       "Ayrton Senna (Brazil, Formula 1)",
     ],
@@ -380,8 +378,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function updateMoveImages(playerMove, computerMove) {
     playerMoveImage.src = `./assets/images/${playerMove}.png`;
-    console.log(playerMove);
-    console.log(playerMoveImage);
     computerMoveImage.src = `./assets/images/${computerMove}.png`;
   }
 
