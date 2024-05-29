@@ -8,8 +8,7 @@ html, body {
     background-color: #ECF0F1;
     overflow-x: hidden;
     text-align: center;
-    margin: auto;
-     max-width: 95vw;
+     max-width: 100vw;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -36,8 +35,14 @@ html, body {
 
 .game-rules{
     position: absolute;
-    left: 50%;
-    top: 5%;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+align-content: center;
+align-self: center;
+left: 45vw;
+    top: 10%;
     font-size: 1.3em;
 }
 
@@ -91,18 +96,39 @@ color: white;
     margin: auto;
     border-color: #2C3E50;
     border-radius: 10px;
-    background-color: rgb(6, 45, 2);
+    background-color: #062d02;
     color: #ECF0F1;
     padding: 10px;
 }
 
 #result-section{
-    background-color: rgb(161, 159, 161);
-    box-shadow: 10px 10px 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 10px 25px;
     padding: 10px;
     border-radius: 10px;
+    z-index: -99;
+    animation: slideBackground 50s infinite;
 }
 
+
+
+
+@keyframes slideBackground {
+    0% {
+        background-image: url("../images/plain-bg2.jpg");
+    }
+    33.33% {
+        background-image: url("../images/plain-bg.jpg");
+    }
+    66.66% {
+        background-image: url("../images/plain-bg3.jpg");
+    }
+    100% {
+        background-image: url("../images/plain-bg2.jpg");
+    }
+}
 /* Game Area */
 #game-area{
     margin-top: 50px;

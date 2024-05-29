@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "Sergio Ramos (Spain)",
       "Robert Lewandowski (Poland)",
       "Virgil van Dijk (Netherlands)",
-      "Manuel Neuer (Germany)", //continue
+      "Manuel Neuer (Germany)",
       "Luis Suárez (Uruguay)",
       "Sadio Mané (Senegal)",
       "Kevin De Bruyne (Belgium)",
@@ -333,9 +333,10 @@ document.addEventListener("DOMContentLoaded", function () {
   resetButton.addEventListener("click", function () {
     start = 0;
     roundsPlayed = 0;
-    playerMoveImage.src = "";
-    computerMoveImage.src = "";
+    playerMoveImage.src = "./assets/images/spartan-head.png";
+    computerMoveImage.src = "./assets/images/spartan-head.png";
     resultSpace.innerHTML = "<strong>Click the start button to begin!</strong>";
+    resultSpace.style.backgroundColor = "#062D02";
     startButton.style.display = "inline-block";
     quitButton.style.display = "none";
     resetButton.style.display = "none";
@@ -394,6 +395,7 @@ document.addEventListener("DOMContentLoaded", function () {
       resultSpace.style.backgroundColor = "red";
     } else {
       resultSpace.innerText = "It's a tie!";
+      resultSpace.style.backgroundColor = "#062D02";
     }
   }
 
