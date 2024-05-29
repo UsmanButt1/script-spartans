@@ -1,37 +1,32 @@
 <a name="readme-top"></a>
 
 <!--
-*** Thank you for checking out and/or using this README Template. If you have a suggestion
+*** Thank you for checking out and/or using this project. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
 *** or simply open an issue with the tag "improvement".
-*** Adapt appropriately and replace all placeholder text with accurate information relating to your project.
-*** Do not forget to take the asset folder along with the README.md file so that the icons link will not be broken.
-*** Remove all *N/B* comments.
 *** Don't forget to give the project a star!
 -->
 
-<!-- PROJECT LOGO (N/B: Replace logo url and image to match your project)-->
-<br />
+<!-- PROJECT LOGO -->
+<br>
 <div>
   <a href="https://github.com/scientistigwe/README-Template">
     <img src="./assets/images/spartan-logo.png" align="right" alt="Project Logo" width="120" height="100%">
     </span>
-    <br>
-
+  <br>
   <a href="https://github.com/scientistigwe/README-Template">
     <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png"  align="center" alt="Project Logo" width="100" height="100%">
-    
   </a>
 </div>
 <br>
 <br>
-  <h1 align="center">SCRIPT SPARTANS</h1>
+  <h1 align="center">SCRIPT SPARTANS GAME</h1>
 
   <p align="center">
     This is a documentation of RPSLS game also code named as Spartan war.
     <br />
     <br />
-    <a href="https://github.com/path-to-readme-file"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/UsmanButt1/script-spartans/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
 
@@ -107,44 +102,81 @@ Table of Contents
 <section>
 <h1 id="introduction">SECTION 1: INTRODUCTION </h1>
 
-This section contains summary information about the project, the user expections and tools used in building this solution.
+This section contains summary information about the project, the user expectations and tools used in building this solution.
 
 <h2 id="about-the-project">About The Project</h2>
 
-<p align="center"><a href="https://path-to-deployed-site.com">"**name-of-project**"</a></p>
+<p align="center"><a href="https://usmanbutt1.github.io/script-spartans/">SCRIPT SPARTANS GAME</a></p>
 
-<a href="https://github.com/scientistigwe/README-Template">
-<img src="./assets/images/screenshot.png" alt="Product Screenshot" width="600" height="600">
+<a href="https://usmanbutt1.github.io/script-spartans/">
+<img src="./assets/images/deployed-product.png" alt="Product Screenshot" width="100%" height="100%">
 </a>
 
 <h2 id="ux">User Experience (UX)</h2>
 
-"**name-of-project**" is a software designed to provide abc services.
+**SCRIPT SPARTANS GAME** combines "Rock, Paper, Scissors" with "Lizard" and "Spock," featuring celebrities from various professions. Players select a profession and a celebrity, while the computer randomly picks a celebrity. The game has up to 10 rounds where players and the computer select moves, with outcomes determined by rules like "Rock crushes Scissors" and "Spock vaporizes Rock." Results and scores are displayed with corresponding celebrity images and names.
+
+Scoring is simple: a win adds a point, and ties result in no score change. The game ends after 10 rounds, allowing players to reset or quit. The title element dynamically cycles through "ROCK," "PAPER," "SCISSORS," "LIZARD," and "SPOCK," adding visual appeal. This twist on a classic game, enhanced by celebrity involvement, provides extra fun and excitement..
 
 The uniqueness of this project are:
 
-- abc
-- xyz
-- 123
-- etc
+- Integration of "Lizard" and "Spock" alongside "Rock, Paper, Scissors" for expanded gameplay options.
+- Inclusion of celebrities from diverse professions, adding a unique twist to the game experience.
+- Dynamic cycling of title elements ("ROCK," "PAPER," "SCISSORS," "LIZARD," and "SPOCK") every three seconds for visual appeal.
+- Clear and simple scoring system, with wins adding points and ties resulting in no score change.
+- Option to reset or quit the game after completion, providing flexibility and ease of use for players.
 
-You can view the deployed website [here](https://path-to-deployed-site.com)
+You can view the deployed website [here](https://usmanbutt1.github.io/script-spartans/).
 
 <h2 id="user-stories">User Stories</h2>
 
-- As a new user of this website, I want to easily.......
-- As a new user of this website, I want to quickly.......
-- As a new user of this website, I want to quickly.......
-- As a new user of this website, I want to see.......
-- As a new user of this website, I want to see.......
-- As a new user of this website, I want to easily find.......
-- As a new user to this website, I want to meet the team
-- As a user, I want to follow xyz on social media.......
-- etc
+1. As a player,
+I want the game logic to function properly alongside CSS styling,
+So that I can enjoy a seamless gaming experience.
+
+Acceptance Criteria:
+- The game logic should accurately determine the winner based on player moves.
+- CSS styling should be applied consistently throughout the game interface.
+
+2. As a player,
+I want the result box color to change appropriately,
+So that I can easily distinguish between different game outcomes.
+
+Acceptance Criteria:
+- The result box color should reflect the outcome of each game round (e.g., green for player win, red for computer win, etc.).
+
+3. As a player,
+I want the initial images for the Player and Computer to display correctly,
+So that I can immediately identify my chosen character and the computer's selection.
+
+Acceptance Criteria:
+- The initial images for both the Player and Computer should load without errors, displaying the selected characters effectively.
+
+4. As a player,
+I want the RPSLS images to be arranged in a Pentagon shape,
+So that the game interface is visually appealing and intuitive to navigate.
+
+Acceptance Criteria:
+- The RPSLS images should be positioned in a clear Pentagon shape, reflecting the game's additional elements effectively.
+
+5. As a developer,
+I want to create wireframes for the website,
+So that I can visually plan the layout and design of the game interface.
+
+Acceptance Criteria:
+- Wireframes should be created for each webpage or section of the website, outlining the structure and elements to be included.
+
+6. As a developer,
+I want to update the ReadMe file,
+So that users have clear and comprehensive documentation about the project.
+
+Acceptance Criteria:
+- The ReadMe file should be revised to include relevant information such as project overview, installation instructions, and usage guidelines.
+
 
 <h2 id="technology-stack">Technology Stack</h2>
 
-This subsection outlines the technologies, frameworks, libraries, and tools used in the development of this project. It provides insight into the foundational components that power "**name-of-project**". Add-ons ad plugins are captured in the acknowledgements subsection (N/B: below are dummy samples. Replace with the actual project frameworks and libraries).
+This subsection outlines the technologies, frameworks, libraries, and tools used in the development of this project. It provides insight into the foundational components that power **SCRIPT SPARTANS GAME**. Add-ons ad plugins are captured in the acknowledgements subsection (N/B: below are dummy samples. Replace with the actual project frameworks and libraries).
 
 <h2 id="languages-frameworks-libraries">Languages, Frameworks and Libraries</h2>
 
@@ -164,31 +196,17 @@ This subsection outlines the technologies, frameworks, libraries, and tools used
 
 - <img src="./assets/icons/balsamiq.png" width="20px" align="top"><a href="https://balsamiq.com/"> Balsamiq</a> - Used to create site wireframes.
 
-- <img src="./assets/icons/shutterstock.png" width="20px" align="top"><a href="https://www.shutterstock.com/home"> Shutterstock</a> and <img src="./assets/icons/unsplash.png" width="20px" align="top"><a href="https://unsplash.com/"> Unsplash photo</a> - Used for all images on the website.
-
-- <img src="./assets/icons/google_map.png" width="20px" align="top"><a href="https://google-map-generator.com/"> Google Map Generator</a> - Used to import business location.
+- <img src="./assets/icons/google-image.png" width="20px" align="top"><a href="https://images.google.com/"> Google Images</a> - Used for all images on the website.
 
 - <img src="./assets/icons/responsive-devices.png" width="20px" align="top"><a href="http://ami.responsivedesign.is/"> Am I Responsive</a> - Used to check if the site is responsive on different screen sizes.
 
-- <img src="./assets/icons/IMG2GO.png" width="20px" align="top"><a href="https://www.img2go.com/compress-image#j=f26cc008-23b4-4d4e-9934-96877fa9a7e7"> IMG2GO</a> and <img src="./assets/icons/Tiny_PNG.png" width="20px" align="top"><a href="https://tinypng.com/"> Tiny PNG</a> - Used to help compress the images.
+- <img src="./assets/icons/canva.png" width="20px" align="top"><a href="https://www.canva.com/"> Canva</a> - Used to design logo.
 
 - <img src="./assets/icons/html_formatter.png" width="20px" align="top"><a href="https://www.freeformatter.com/html-formatter.html"> Free Online HTML Formatter</a> - Used to correct indentation issues and get rid of excess whitespace.
 
-- <img src="./assets/icons/next_js.png" width="20px" align="top"><a href="[Next-url]"> Next.js</a> - Used for server-side rendering and building modern, scalable web applications.
-
-- <img src="./assets/icons/react..png" width="20px" align="top"><a href="[React-url]"> React.js</a> - Used for building user interfaces, especially single-page applications.
-
-- <img src="./assets/icons/Vue_js.png" width="20px" align="top"><a href="[Vue-url]"> Vue.js</a> - Used for building interactive web interfaces and single-page applications.
-
-- <img src="./assets/icons/angular.png" width="20px" align="top"><a href="[Angular-url]"> Angular</a> - Used for building large-scale, high-performance web applications.
-
-- <img src="./assets/icons/svelte.png" width="20px" align="top"><a href="[Svelte-url]"> Svelte</a> - Used for building fast, lightweight web applications with minimal overhead.
-
-- <img src="./assets/icons/laravel.png" width="20px" align="top"><a href="[Laravel-url]"> Laravel</a> - Used for building web applications with elegant syntax and a robust ecosystem.
-
 - <img src="./assets/icons/bootstrap.png" width="20px" align="top"><a href="[Bootstrap-url]"> Bootstrap</a> - Used for building responsive and mobile-first websites and web applications.
 
-- <img src="./assets/icons/jquery.png" width="20px" align="top"><a href="[JQuery-url]"> jQuery</a> - Used for simplifying HTML document traversing, event handling, and animation.
+
 
 <h2 id="management-and-development">Project Management and Development Approach</h2>
 
@@ -196,11 +214,15 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 
 <strong>Four Values of the Agile Manifesto:</strong>
 
-- Vision 1: Customer collaboration over contract negotiation: **[Sample description]** The Team held [**number of meetings**] planning sessions via **Zoom, Google Meet, or Microsoft Teams**, ensuring alignment with customer needs and prioritizing features through user story mapping.
-- **a screenshot or graphic representation of a Zoom meeting with team members.**
+- Vision 1: Customer collaboration over contract negotiation: **[Sample description]** The Team held **8** planning sessions via **Zoom, Google Meet, or Microsoft Teams**, ensuring alignment with customer needs and prioritizing features through user story mapping.
 
-- Vision 2: Responding to change over following a plan: **[Sample description]**: Throughout the project, the team managed (
-  [![GitHub issues](https://img.shields.io/github/issues-closed/github-username/name-of-repository?)](https://github.com/github-username/name-of-repository/issues) + [![GitHub issues](https://img.shields.io/github/issues/github-username/name-of-repository?)](https://github.com/github-username/name-of-repository/issues) ) GitHub issues, adapting to changing requirements and feedback iteratively.
+**Zoom meeting with team members**
+<a href="https://usmanbutt1.github.io/script-spartans/">
+<img src="./assets/images/team-huddle.png" alt="Product Screenshot" width="100%" height="100%">
+</a>
+
+- Vision 2: Responding to change over following a plan: Throughout the project, the team managed (
+  [![GitHub issues](https://img.shields.io/github/issues-closed/UsmanButt1/script-spartans?)](https://github.com/UsmanButt1/script-spartans/issues) + [![GitHub issues](https://img.shields.io/github/issues/UsmanButt1/script-spartans?)](https://github.com/UsmanButt1/script-spartans/issues) ) GitHub issues, adapting to changing requirements and feedback iteratively.
   **A screenshot of the GitHub project board demonstrates their flexibility.**
 
 - Vision 3: Working software over comprehensive documentation: **[Sample description]** Achieved **[number of story points]** across **[number of sprints]**, emphasizing the focus on delivering functional software increments.
@@ -233,35 +255,7 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 
 <h1 id="project-setup">SECTION 2: PROJECT SETUP</h1>
 
-In this section, a detailed account of all requirements needed for "**name-of-project**" to be setup and running. It also includes installation instructions and a link to all necessary documentations for these tools.
-
-<h2 id="prerequisites">Prerequisites</h2>
-
-Below are the list of softwares required to setup and start using "**name-of-project**" (N/B: if no installation is required. Then write: "**name-of-project**" does not rely on any external dependencies or services.):
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-- etc
-
-<h2 id="installation">Installation</h2>
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
+**SCRIPT SPARTANS GAME** does not rely on any external dependencies or services.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -269,145 +263,133 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <h1 id="features-and-structure">SECTION 3: PROJECT FEATURES AND STRUCTURE</h1>
 
-This section encompasses the various elements and functionalities aimed at enhancing the user experience and achieving the goals of ["**name-of-project**"] website. It outlines the key features and structural components intended to provide visitors with a seamless and informative journey through the platform.
+This section encompasses the various elements and functionalities aimed at enhancing the user experience and achieving the goals of **SCRIPT SPARTANS GAME** website. It outlines the key features and structural components intended to provide visitors with a seamless and informative journey through the platform.
 
 <h1 id="features">Features</h1>
 
 The key features are:
 
-- <strong>Navigation:</strong> Designed to facilitate users effortlessly access to different sections and pages.
-- <strong>Services:</strong> Provides comprehensive information about the services offered by the project.
-- <strong>Pricing:</strong> Provides corresponding prices on services offered by ["**name-of-project**"], enabling users to make informed decisions about their choices.
-- <strong>Testimonials:</strong> Showcases testimonials and highlights positive experiences from previous clients, fostering trust and credibility among potential customers.
-- <strong>Gallery:</strong> Presents a visually appealing gallery displaying a pictorial representation of ["**name-of-project**"], serving as a source of inspiration for clients.
-- <strong>Contact Form:</strong> Offers a user-friendly contact form that simplifies the process of reaching out to the team. This will empower clients to submit inquiries, book appointments, or provide feedback seamlessly.
-- <strong>Contact Information:</strong> Displays essential contact details of the team prominently on the website, ensuring users can easily reach out to the establishment via phone, email, or physical address.
-- <strong>Social Links:</strong> Includes links to the company's social media profiles, enabling users to stay connected and updated with the latest news, promotions, and announcements.
-- <strong>Responsive Design:</strong> Ensures that the website is accessible and functional across various devices and screen sizes, providing a consistent user experience.
-- <strong>Interactive Elements:</strong> Incorporates interactive elements such as buttons, sliders, and hover effects to enhance user engagement and interactivity, making the browsing experience more enjoyable and intuitive.
+- Intuitive Game Rule Modal: The website includes an intuitive modal that explains the rules of the game, ensuring that players understand how to play before starting.
+
+- Dynamic Dropdowns for Profession and Celebrity Selection: Users can select their profession and choose a celebrity from that profession using dynamic dropdown menus, enhancing user experience and personalization.
+
+- Visual Representation of Celebrities: Selected celebrities are visually represented on the website through images and names, providing a clear identification of the chosen character and adding to the immersive experience.
+
+- Scoring Display: The website dynamically displays the scores of the player and computer after each round, keeping users informed about their progress throughout the game.
+
+- Flexible Game Controls: Users can easily start, reset, or quit the game using intuitive controls, providing a seamless and user-friendly gaming experience.
+
+- Dynamic Title Element: The website features a dynamic title element that cycles through key game elements ("ROCK," "PAPER," "SCISSORS," "LIZARD," and "SPOCK") every three seconds, adding visual interest and engagement.
+
+- Responsive Design: The website is designed to be responsive across different devices and screen sizes, ensuring that users can enjoy the game on desktops, tablets, and smartphones alike.
 
 - Other features to be implemented in the future include:
 
-- <strong>Online Booking:</strong> Implementing an online booking system that enables clients to schedule appointments directly through the website, offering convenience and flexibility in selecting desired dates and times for their visits.
+- Multiplayer Mode: Introduce a multiplayer mode where players can compete against each other online. This feature would enhance the social aspect of the game, allowing friends or strangers to challenge each other in real-time matches.
 
-- <strong>ChatBot:</strong>: An AI-powered self service system that will guide and direct clients based on their specific needs.
+- Customizable Avatars: Implement a feature that allows players to customize their avatars using different outfits, accessories, and backgrounds. This customization option would add a personal touch to the game and allow players to express their individuality.
+
+- Leaderboards and Achievements: Introduce leaderboards and achievements to encourage competition and reward player progress. Players can earn achievements for completing certain milestones or performing well in matches, while leaderboards would showcase the top players based on their scores or win rates.
 
 <h2 id="structure-and-navigation">Structure and Navigation</h2>
 
-- **File Organisation**
+**File Organisation**
 
   - The files where structured into folders and clustered based on functionality. Also file naming convention that reflects the functions of the conetent of the file was adopted.
 
-- **Header**
+**Header section:**
+- Contains the navigation bar with the game title, logo, and a button to trigger the game rules modal.
+- The modal displays the game overview and rules when triggered.
 
-  - "**name-of-project**" logo positioned [left|right|center]
-  - Appears on every page
+**Player Configuration Section:**
+- Allows users to select a profession and a celebrity from dropdown menus.
+- Displays the selected player and computer images and names.
 
-- **Nav bar**
+**Result Section:**
+- Displays the result of each round, along with the player and computer scores.
+-Contains buttons to start, reset, or quit the game.
 
-  - Appers on every page
-  - Navigation bar on the [left|right|center]
+**Game Area:**
+- Presents the gameplay options (Rock, Paper, Scissors, Lizard, Spock) in a grid layout.
+**Footer Section:**
+- Includes the necessary JavaScript libraries and script files.
+- This section ensures proper functionality and interactivity of the game.
 
-- **Menu items**
-
-  - Appers on every page
-  - Directs users to specific page
-
-- **Footer**
-
-  - Includes a [contact information, contact form, newsletter, Resources and social links] (N/B: adjust as appropriate)
-  - Appears on every page
-
-- **Home Page**
-  - _Hero image_ - appears at the top-[left|right|center] of the home page, below the header section.
-  - _Testimonials_ - just below the "**name-of-section**" section, responsively arrange to maximize various device screen width and give users a good experience.
-  - _Call to action buttons_ - provides an easy portal to other specific page of "**name-of-project**".
-- **Services** - Services has a dedicated page with a navigation link on both the navbar and one of the call-to-action buttons on the homepage.
-- **Pricing** - Pricing and Plans has a dedicated page with a navigation link on both the navbar and one of the call-to-action buttons on the homepage.
-- **Our Team** - Our Teams has a dedicated page with a navigation link on both the navbar and one of the call-to-action buttons on the homepage.
-- **Gallery** - Gallery has a dedicated page with a navigation link on both the navbar and one of the call-to-action buttons on the homepage.
-- **Contact Us** - This is located at the [left|right|center] of the footer.
+**Additional Notes:**
+- The HTML is structured using semantic elements like \<header>, \<nav>, \<section>, and \<footer> for clarity and accessibility.
+- Bootstrap classes are utilized for styling and layout purposes, ensuring responsiveness across different devices.
+- Inline styles and attributes are kept to a minimum to maintain separation of concerns and improve maintainability.
 
 <h2 id="wireframes">Wireframes</h2>
 
 ### _File Organisation Tree_
 
 <p align="center">
-<img src="wireframe/file_org_tree.png" width="600" height="700">
+<img src="./assets/wireframes/file-structure.png" width="600" height="700">
 </p>
 
-### _Home Page_
+### _Desktop view_
 
 <p align="center">
-<img src="wireframe/home-page.png" width="600" height="700">
+<img src="./assets/wireframes/desktop.png" width="600" height="100%">
 </p>
 
-### _Services & Prices_
+
+### _Mobile view_
 
 <p align="center">
-<img src="wireframe/services-prices.png" width="600" height="900">
-</p>
-
-### _OurTeam_
-
-<p align="center">
-<img src="wireframe/our-team.png" width="600" height="900">
-</p>
-
-### _Gallery_
-
-<p align="center">
-<img src="wireframe/gallery.png" width="600" height="900">
-</p>
-
-### _Contact Us_
-
-<p align="center">
-<img src="wireframe/contact.png" width="600" height="900">
-</p>
-
-### _Mobile View - Home Page_
-
-<p align="center">
-<img src="wireframe/mobile-home-page.png" width="400" height="1000">
+<img src="./assets/wireframes/mobile.png" width="400" height="100%">
 </p>
 
 <h2 id="design-and-styling">Design and Styling</h2>
 
 <h3 id="design">Design</h3>
 
-Given the serene ambiance of the establishment, the website echoes this sentiment through its design. Employing a predominantly white background conveys cleanliness, brightness, and sterility—attributes associated with a tranquil setting. Complementary background hues evoke a sense of calmness, while vibrant and colorful imagery aims to immerse visitors in the **[name of project]** ambiance.
+The webpage features light grey backgrounds and sans-serif fonts for a clean look, animated titles for visual interest, transparent dropdowns with hover effects for sleek design, circular images for consistency, centrally positioned buttons for accessibility, high-contrast result spaces for readability, and circular game buttons with shadow and hover effects for enhanced interactivity.
 
-<h3 id="color">Color</h3>
+**General Styling**
 
-- **Main background color - **#color hex** (color name)** - I chose this color because **\*\***\***\*\***
-- **h1 headings and nav bar - [color]** - reason
-- **h2 headings - [color]** - reason
-- **p - [color]** - reason
-- **footer - [color]** - reason
+- Background color: Light grey (#ECF0F1)
 
-<h3 id="font">Font</h3>
+  - Reason: Creates a modern and clean look for the webpage.
+- Font family: Sans-serif (Verdana, Geneva, Tahoma, sans-serif)
+  - Reason: Ensures readability and a consistent appearance across different devices.
 
-- main font: Font name
-- Secondary font - Font name
+**Logo Image Styling** 
 
-<h3 id="media">Media</h3>
+- Logo margin: Top margin of 30px
+  - Reason: Provides adequate spacing from the top to enhance visual appeal.
+**itle Elements Animation**
 
-**Hero image** - short description and reason for selection
+- Title animation: Fade-in-out effect with color #2C3E50
+  - Reason: Adds dynamic visual interest to the title, drawing attention to it without overwhelming the user.
 
-**Contact section** - short description and reason for selection
+**Dropdown Styling**
 
-**Services** - short description and reason for selection
+- Dropdown background color: Transparent with a hover effect changing to dark purple (rgb(60, 11, 73))
+  - Reason: Maintains a sleek design while providing clear visual feedback when interacted with.
 
-**Plans and Pricing** - short description and reason for selection
+**Player and Computer Image Styling**
 
-**Our Team** - short description and reason for selection
+- Image dimensions and shape: 200px by 200px, circular with border-radius 50%
+  - Reason: Uniform, circular images create a visually pleasing and consistent user interface.
 
-**Gallery** - short description and reason for selection
+**Button Styling**
 
-**Contact Us** - short description and reason for selection
+- Start, Quit, Reset buttons: Positioned centrally with margin and cursor pointer
+  - Reason: Ensures buttons are easily accessible and clearly indicate their interactivity.
 
-**etc** - short description and reason for selection
+**Result Space Styling**
+
+- Result space background color: Dark green (rgb(6, 45, 2)) with text color #ECF0F1
+  - Reason: Provides high contrast, making the result text easily readable.
+
+**Game Area Styling**
+
+- Game area margin: Top and bottom margins of 50px
+  - Reason: Ensures sufficient spacing around the game area for better visibility and user experience.
+- Game move buttons: Circular buttons with shadow and hover effects
+  - Reason: Adds a tactile feel to the buttons, enhancing the user's interactive experience.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -437,9 +419,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 <img src="assets/images/readme/css-validator.png" width="400" height="100%">
 </p>
 
-- I used Lighthouse tools to test my website
+- I used Lighthouse tools to test the website Performance (100%), Accessibility (89%), Best Practices (96%) and SEO (91%)
 <p align="center">
-<img src="assets/images/readme/lighthouse.png" width="400" height="100%">
+<img src="./assets/images/lighthouse.png" alt="Light House Report" width="400" height="100%">
 </p>
 
 <h3 id="html-validator-report">HTML Validator Report</h3>
@@ -462,30 +444,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 
   - [actions taken to remedy it].
 
-<h2 id="user-story-testing">User Story Testing</h2>
-
-- **User Story 1:** [user story here]
-
-  - [how it was implemented here]
-
-  (N/B: Use image generated from https://ui.dev/amiresponsive to show the the page in 4 different devices)
-
-  <p align="center">
-  <img src="assets/images/readme/logo-navbar.png" width="700" height="100%">
-  </p>
-
-- **User Story 2:** [user story here]
-
-  - [how it was implemented here]
-
-  (N/B: Use image generated from https://ui.dev/amiresponsive to show the the page in 4 different devices)
-
-  <p align="center">
-  <img src="assets/images/readme/logo-navbar.png" width="700" height="100%">
-  </p>
-
-reapeat for all user stories
-
 <h2 id="bugs-and-issues">Bugs and Issues</h2>
 
 - Detail any bug and/or issues encountered, steps taken to correct it. Add images if possible.
@@ -500,15 +458,11 @@ reapeat for all user stories
 
 <h2 id="final-product">Final Product</h2>
 
-- The product is live and can be seen on **[url of deployed site]**
-
-### _Home Page_
+- The product is live and can be seen on [SCRIPT SPARTAN GAME](https://usmanbutt1.github.io/script-spartans/)
 
 <p align="center">
-<img src="assets/images/readme/desktop-home-page.png" width="600" height="100%">
+<img src="./assets/images/deployed-product.png" width="600" height="100%">
 </p>
-
-- Add images of various sections of the final product as above.
 
 <h2 id="credits">Credits</h2>
 
@@ -518,10 +472,7 @@ reapeat for all user stories
 
 <h3 id="content">Content</h3>
 
-- All content was written by [**Your Name**]
-- Mention sections that was not original and the source where it was adopted from.
-
-- I utilized the guidance provided by [Responsive navbar and hamburger menu](https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci) to develop the responsive navbar and hamburger menu.
+- All content was written by **Mohammad Usman Butt, Chibueze Igwe, Nidhal Zarrad AND Yazan El Masri**
 
 <h3 id="media2">Media</h3>
 
@@ -545,9 +496,7 @@ Use this space to list individuals, groups or resources you find helpful and wou
 
 <h2 id="contact">Contact</h2>
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [SCRIPT SPARTAN GAME](https://usmanbutt1.github.io/script-spartans/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 </section>
