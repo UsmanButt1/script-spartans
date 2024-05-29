@@ -1,37 +1,32 @@
 <a name="readme-top"></a>
 
 <!--
-*** Thank you for checking out and/or using this README Template. If you have a suggestion
+*** Thank you for checking out and/or using this project. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
 *** or simply open an issue with the tag "improvement".
-*** Adapt appropriately and replace all placeholder text with accurate information relating to your project.
-*** Do not forget to take the asset folder along with the README.md file so that the icons link will not be broken.
-*** Remove all *N/B* comments.
 *** Don't forget to give the project a star!
 -->
 
-<!-- PROJECT LOGO (N/B: Replace logo url and image to match your project)-->
-<br />
+<!-- PROJECT LOGO -->
+<br>
 <div>
   <a href="https://github.com/scientistigwe/README-Template">
     <img src="./assets/images/spartan-logo.png" align="right" alt="Project Logo" width="120" height="100%">
     </span>
-    <br>
-
+  <br>
   <a href="https://github.com/scientistigwe/README-Template">
     <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png"  align="center" alt="Project Logo" width="100" height="100%">
-    
   </a>
 </div>
 <br>
 <br>
-  <h1 align="center">SCRIPT SPARTANS</h1>
+  <h1 align="center">SCRIPT SPARTANS GAME</h1>
 
   <p align="center">
     This is a documentation of RPSLS game also code named as Spartan war.
     <br />
     <br />
-    <a href="https://github.com/path-to-readme-file"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/UsmanButt1/script-spartans/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
 
@@ -107,19 +102,19 @@ Table of Contents
 <section>
 <h1 id="introduction">SECTION 1: INTRODUCTION </h1>
 
-This section contains summary information about the project, the user expections and tools used in building this solution.
+This section contains summary information about the project, the user expectations and tools used in building this solution.
 
 <h2 id="about-the-project">About The Project</h2>
 
-<p align="center"><a href="https://path-to-deployed-site.com">"**name-of-project**"</a></p>
+<p align="center"><a href="https://usmanbutt1.github.io/script-spartans/">SCRIPT SPARTANS GAME</a></p>
 
-<a href="https://github.com/scientistigwe/README-Template">
-<img src="./assets/images/screenshot.png" alt="Product Screenshot" width="600" height="600">
+<a href="https://usmanbutt1.github.io/script-spartans/">
+<img src="./assets/images/deployed-product.png" alt="Product Screenshot" width="100%" height="100%">
 </a>
 
 <h2 id="ux">User Experience (UX)</h2>
 
-"**name-of-project**" is a software designed to provide abc services.
+**SCRIPT SPARTANS GAME** is a software designed to provide abc services.
 
 The uniqueness of this project are:
 
@@ -128,7 +123,7 @@ The uniqueness of this project are:
 - 123
 - etc
 
-You can view the deployed website [here](https://path-to-deployed-site.com)
+You can view the deployed website [here](https://usmanbutt1.github.io/script-spartans/)
 
 <h2 id="user-stories">User Stories</h2>
 
@@ -166,29 +161,15 @@ This subsection outlines the technologies, frameworks, libraries, and tools used
 
 - <img src="./assets/icons/shutterstock.png" width="20px" align="top"><a href="https://www.shutterstock.com/home"> Shutterstock</a> and <img src="./assets/icons/unsplash.png" width="20px" align="top"><a href="https://unsplash.com/"> Unsplash photo</a> - Used for all images on the website.
 
-- <img src="./assets/icons/google_map.png" width="20px" align="top"><a href="https://google-map-generator.com/"> Google Map Generator</a> - Used to import business location.
-
 - <img src="./assets/icons/responsive-devices.png" width="20px" align="top"><a href="http://ami.responsivedesign.is/"> Am I Responsive</a> - Used to check if the site is responsive on different screen sizes.
 
 - <img src="./assets/icons/IMG2GO.png" width="20px" align="top"><a href="https://www.img2go.com/compress-image#j=f26cc008-23b4-4d4e-9934-96877fa9a7e7"> IMG2GO</a> and <img src="./assets/icons/Tiny_PNG.png" width="20px" align="top"><a href="https://tinypng.com/"> Tiny PNG</a> - Used to help compress the images.
 
 - <img src="./assets/icons/html_formatter.png" width="20px" align="top"><a href="https://www.freeformatter.com/html-formatter.html"> Free Online HTML Formatter</a> - Used to correct indentation issues and get rid of excess whitespace.
 
-- <img src="./assets/icons/next_js.png" width="20px" align="top"><a href="[Next-url]"> Next.js</a> - Used for server-side rendering and building modern, scalable web applications.
-
-- <img src="./assets/icons/react..png" width="20px" align="top"><a href="[React-url]"> React.js</a> - Used for building user interfaces, especially single-page applications.
-
-- <img src="./assets/icons/Vue_js.png" width="20px" align="top"><a href="[Vue-url]"> Vue.js</a> - Used for building interactive web interfaces and single-page applications.
-
-- <img src="./assets/icons/angular.png" width="20px" align="top"><a href="[Angular-url]"> Angular</a> - Used for building large-scale, high-performance web applications.
-
-- <img src="./assets/icons/svelte.png" width="20px" align="top"><a href="[Svelte-url]"> Svelte</a> - Used for building fast, lightweight web applications with minimal overhead.
-
-- <img src="./assets/icons/laravel.png" width="20px" align="top"><a href="[Laravel-url]"> Laravel</a> - Used for building web applications with elegant syntax and a robust ecosystem.
-
 - <img src="./assets/icons/bootstrap.png" width="20px" align="top"><a href="[Bootstrap-url]"> Bootstrap</a> - Used for building responsive and mobile-first websites and web applications.
 
-- <img src="./assets/icons/jquery.png" width="20px" align="top"><a href="[JQuery-url]"> jQuery</a> - Used for simplifying HTML document traversing, event handling, and animation.
+
 
 <h2 id="management-and-development">Project Management and Development Approach</h2>
 
@@ -196,11 +177,15 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 
 <strong>Four Values of the Agile Manifesto:</strong>
 
-- Vision 1: Customer collaboration over contract negotiation: **[Sample description]** The Team held [**number of meetings**] planning sessions via **Zoom, Google Meet, or Microsoft Teams**, ensuring alignment with customer needs and prioritizing features through user story mapping.
-- **a screenshot or graphic representation of a Zoom meeting with team members.**
+- Vision 1: Customer collaboration over contract negotiation: **[Sample description]** The Team held **8** planning sessions via **Zoom, Google Meet, or Microsoft Teams**, ensuring alignment with customer needs and prioritizing features through user story mapping.
+
+**Zoom meeting with team members**
+<a href="https://usmanbutt1.github.io/script-spartans/">
+<img src="./assets/images/team-huddle.png" alt="Product Screenshot" width="100%" height="100%">
+</a>
 
 - Vision 2: Responding to change over following a plan: **[Sample description]**: Throughout the project, the team managed (
-  [![GitHub issues](https://img.shields.io/github/issues-closed/github-username/name-of-repository?)](https://github.com/github-username/name-of-repository/issues) + [![GitHub issues](https://img.shields.io/github/issues/github-username/name-of-repository?)](https://github.com/github-username/name-of-repository/issues) ) GitHub issues, adapting to changing requirements and feedback iteratively.
+  [![GitHub issues](https://img.shields.io/github/issues-closed/UsmanButt1/script-spartans?)](https://github.com/UsmanButt1/script-spartans/issues) + [![GitHub issues](https://img.shields.io/github/issues/UsmanButt1/script-spartans?)](https://github.com/UsmanButt1/script-spartans/issues) ) GitHub issues, adapting to changing requirements and feedback iteratively.
   **A screenshot of the GitHub project board demonstrates their flexibility.**
 
 - Vision 3: Working software over comprehensive documentation: **[Sample description]** Achieved **[number of story points]** across **[number of sprints]**, emphasizing the focus on delivering functional software increments.
@@ -233,35 +218,7 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 
 <h1 id="project-setup">SECTION 2: PROJECT SETUP</h1>
 
-In this section, a detailed account of all requirements needed for "**name-of-project**" to be setup and running. It also includes installation instructions and a link to all necessary documentations for these tools.
-
-<h2 id="prerequisites">Prerequisites</h2>
-
-Below are the list of softwares required to setup and start using "**name-of-project**" (N/B: if no installation is required. Then write: "**name-of-project**" does not rely on any external dependencies or services.):
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
-- etc
-
-<h2 id="installation">Installation</h2>
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
+**SCRIPT SPARTANS GAME** does not rely on any external dependencies or services.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
