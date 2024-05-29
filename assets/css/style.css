@@ -9,7 +9,7 @@ html, body {
     overflow-x: hidden;
     text-align: center;
     margin: auto;
-     max-width: 75vw;
+     max-width: 95vw;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -121,7 +121,7 @@ color: white;
     border-radius: 50%;
     border: 15px, #46494C, solid;
     padding: 15px;
-    box-shadow: 5px 5px 30px;
+    box-shadow: 2px 15px 30px;
 }
 #game-area #rock:hover{
     background-color: #46494C;
@@ -163,4 +163,8 @@ color: white;
 }
 #game-area #spock:hover{
     background-color:  #361A6A;
+}
+
+#player-move-image, #computer-move-image{
+    margin: auto;
 }

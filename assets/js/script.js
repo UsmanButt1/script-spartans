@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let computerPlay;
   let start = 0;
   let roundsPlayed = 0;
-  const maxRounds = 5;
+  const maxRounds = 10;
   const playerImage = document.getElementById("player-image");
   const computerImage = document.getElementById("computer-image");
   const resultSpace = document.getElementById("resultSpace");
@@ -19,17 +19,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const celebritiesByProfession = {
     "CodeInstitute Spartans": [
+      "Robyn de Brún",
       "Mohammad Usman Butt",
       "Chibueze Igwe",
       "Nidhal Zarrad",
       "Yazan El Masri",
       "Diana Labode",
       "Andy Ancans",
+      "Iris Smok",
       "Ikenna Egwim",
       "Ernest Dapaah",
       "Charlie Lambino-Worthington",
       "Kalyani Kommula",
       "Mohamed Mohamed",
+      "David Calikes",
       "Amir Ahmed",
       "Safi Hasan",
       "Rebecca Allford",
@@ -388,9 +391,11 @@ document.addEventListener("DOMContentLoaded", function () {
     if (winner === "player") {
       scorePlayer.innerText = parseInt(scorePlayer.innerText) + 1;
       resultSpace.innerText = `${playerName.textContent} wins this round!`;
+      resultSpace.style.backgroundColor = "green";
     } else if (winner === "computer") {
       scoreComputer.innerText = parseInt(scoreComputer.innerText) + 1;
-      resultSpace.innerText = `${computerName.textContent} wins this round!`;
+      resultSpace.innerText = `${playerName.textContent} lost this round!`;
+      resultSpace.style.backgroundColor = "red";
     } else {
       resultSpace.innerText = "It's a tie!";
     }
