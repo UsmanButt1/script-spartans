@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "Yazan El Masri",
       "Diana Labode",
       "Andy Ancans",
+      "Kevin Loughrey",
       "Iris Smok",
       "Ikenna Egwim",
       "Ernest Dapaah",
@@ -50,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "Vladimir Putin (Russia)",
       "Jacinda Ardern (New Zealand)",
       "Emmanuel Macron (France)",
-      "Justin Trudeau (Canada)", //continue
+      "Justin Trudeau (Canada)",
       "Xi Jinping (China)",
       "Boris Johnson (UK)",
       "Shinzo Abe (Japan)",
@@ -97,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "Shah Rukh Khan (India)",
       "Priyanka Chopra (India)",
       "Daniel Craig (UK)",
-      "Penélope Cruz (Spain)", //continue
+      "Penélope Cruz (Spain)",
       "Cate Blanchett (Australia)",
       "Jean Dujardin (France)",
       "Toni Collette (Australia)",
@@ -132,10 +133,10 @@ document.addEventListener("DOMContentLoaded", function () {
       "David Guetta (France)",
     ],
     Literature: [
-      "J.K. Rowling (UK)",
+      "J K Rowling (UK)",
       "Haruki Murakami (Japan)",
       "Chimamanda Ngozi Adichie (Nigeria)",
-      "George R.R. Martin (USA)",
+      "George R R Martin (USA)",
       "Isabel Allende (Chile)",
       "Salman Rushdie (India/UK)",
       "Margaret Atwood (Canada)",
