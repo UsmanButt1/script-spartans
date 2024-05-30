@@ -148,7 +148,7 @@ color: white;
 
 #game-area #rock{
     border-radius: 50%;
-    border: 15px, #46494C, solid;
+    border: 15px #46494C solid;
     padding: 15px;
 }
 #game-area #rock:hover{
@@ -157,7 +157,7 @@ color: white;
 
 #game-area #paper{
     border-radius: 50%;
-    border: 15px, #756114, solid;
+    border: 15px #756114 solid;
     padding: 15px;
 }
 #game-area #paper:hover{
@@ -165,7 +165,7 @@ color: white;
 }
 #game-area #scissors{
     border-radius: 50%;
-    border: 15px, #533E36, solid;
+    border: 15px #533E36 solid;
     padding: 15px;
 }
 #game-area #scissors:hover{
@@ -174,7 +174,7 @@ color: white;
 }
 #game-area #lizard{
     border-radius: 50%;
-    border: 15px, #346F1B, solid;
+    border: 15px #346F1B solid;
     padding: 15px;
 }
 #game-area #lizard:hover{
@@ -182,7 +182,7 @@ color: white;
 }
 #game-area #spock{
     border-radius: 50%;
-    border: 15px, #361A6A, solid;
+    border: 15px #361A6A solid;
     padding: 15px;
 
 }

@@ -49,8 +49,6 @@ Table of Contents
     <details>
     <summary><a href="#project-setup">SECTION 2: PROJECT SETUP</a>
 </summary>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
     </details>
     <details>
     <summary><a href="#features-and-structure">SECTION 3: PROJECT FEATURES AND STRUCTURE</summary>
@@ -62,7 +60,6 @@ Table of Contents
             <li><a href="#design">Design</a></li>
             <li><a href="#color">Color</a></li>
             <li><a href="#font">font</a></li>
-            <li><a href="#media">media</a></li>
         </ol>
         </li>
 </details>
@@ -88,7 +85,6 @@ Table of Contents
             <ol>
                 <li><a href="#template">Template</a></li>
                 <li><a href="#content">Content</a></li>
-                <li><a href="#media2">Media</a></li>
             </ol>
         </li>
 <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -216,7 +212,7 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 
 <strong>Four Values of the Agile Manifesto:</strong>
 
-- Vision 1: Customer collaboration over contract negotiation: **[Sample description]** The Team held **8** planning sessions via **Zoom, Google Meet, or Microsoft Teams**, ensuring alignment with customer needs and prioritizing features through user story mapping.
+- Vision 1: Customer collaboration over contract negotiation: The Team held **8** planning sessions through **Slack huddle**, ensuring alignment with customer needs and prioritizing features through user story mapping.
 
 **Zoom meeting with team members**
 <a href="https://usmanbutt1.github.io/script-spartans/">
@@ -224,23 +220,25 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 </a>
 
 - Vision 2: Responding to change over following a plan: Throughout the project, the team managed (
-  [![GitHub issues](https://img.shields.io/github/issues-closed/UsmanButt1/script-spartans?)](https://github.com/UsmanButt1/script-spartans/issues) + [![GitHub issues](https://img.shields.io/github/issues/UsmanButt1/script-spartans?)](https://github.com/UsmanButt1/script-spartans/issues) ) GitHub issues, adapting to changing requirements and feedback iteratively.
-  **A screenshot of the GitHub project board demonstrates their flexibility.**
+  [![GitHub issues](https://img.shields.io/github/issues-closed/UsmanButt1/script-spartans?)](https://github.com/UsmanButt1/script-spartans/issues) + [![GitHub issues](https://img.shields.io/github/issues/UsmanButt1/script-spartans?)](https://github.com/UsmanButt1/script-spartans/issues) ) GitHub issues, adapting to changing requirements and feedback iteratively. This included accepting modifications even when it is not in line with initial plan as long as it tends towards user satisfaction and better UX design. This is evidenced in the difference between the wireframe blueprint and the final product architecture.
 
-- Vision 3: Working software over comprehensive documentation: **[Sample description]** Achieved **[number of story points]** across **[number of sprints]**, emphasizing the focus on delivering functional software increments.
-- **A snapshot of the scrum/kanban board tracks their progress.**
 
-- Vision 4: Individuals and interactions over processes and tools
-  Description: Daily interactions on GitHub led to **[number of commits]**, fostering collaboration and knowledge sharing among team members.
-- **A snapshot of GitHub issue discussions illustrates their collaborative environment.**
+- Vision 3: Working software over comprehensive documentation: Our project reflects 'Working software over comprehensive documentation' by adopting a mobile-first approach, prioritizing functional and optimized user experience over extensive documentation.
+
+**A snapshot of the Kanban Board**
+<a href="https://usmanbutt1.github.io/script-spartans/">
+<img src="./assets/images/kanban-board.png" alt="Product Screenshot" width="100%" height="100%">
+</a>
+
+- Vision 4: Individuals and interactions over processes and tools: Daily interactions on GitHub led to **45** git commits, fostering collaboration and knowledge sharing among team members.
 
 <strong>Twelve Principles of the Agile Manifesto</strong>
 
 - Satisfy the customer: Held regular stakeholder meetings to ensure alignment with customer needs.
 - Deliver working software: Prioritized delivering functional increments in each sprint, allowing for early feedback.
-- Welcome changing requirements: Maintained open communication channels and adapted plans iteratively.
-- Collaborate daily: Conducted **(frequency of standup) stand-up** meetings to facilitate collaboration and problem-solving.
-- Face-to-face conversation: Utilized **in-person and/or virtual meetings (select one or all the options)** to enhance clarity and understanding.
+- Welcome changing requirements: Maintained open communication channels and adapted plans iteratively. 
+- Collaborate daily: Conducted **daily stand-up, catch-up and stand-down** meetings to facilitate collaboration and problem-solving.
+- Face-to-face conversation: Utilized **virtual meetings** to enhance clarity and understanding.
 - Motivated individuals: Empowered team members through skill development and recognition.
 - Measure progress through working product: Evaluated progress based on delivered functionality in each sprint.
 - Promote sustainable development: Prioritized sustainability practices to ensure long-term success.
@@ -292,6 +290,8 @@ The key features are:
 - Customizable Avatars: Implement a feature that allows players to customize their avatars using different outfits, accessories, and backgrounds. This customization option would add a personal touch to the game and allow players to express their individuality.
 
 - Leaderboards and Achievements: Introduce leaderboards and achievements to encourage competition and reward player progress. Players can earn achievements for completing certain milestones or performing well in matches, while leaderboards would showcase the top players based on their scores or win rates.
+
+- We currently have some missing images in the "Code Institute Spartans" category and our goal for the future would be to completely populate these and have 100% population of all images so the user experience and interaction is more wholesome, fluid and much improved.
 
 <h2 id="structure-and-navigation">Structure and Navigation</h2>
 
@@ -407,9 +407,9 @@ The webpage features light grey backgrounds and sans-serif fonts for a clean loo
 
 <h2 id="validation">Validation</h2>
 
-The W3C Markup Validator and W3C CSS Validator Services were used to check my code for syntax errors in this project.
+The W3C Markup Validator, W3C CSS Validator and JSHint Services were used to check for syntax errors and warnings in this project.
 
-- [HTML](https://validator.w3.org/#validate_by_input)- I checked each page by direct input method on HTML validator site
+- [HTML](https://validator.w3.org/#validate_by_input)
 
 <p align="center">
 <img src="assets/images/readme/html-validator.png" width="800" height="100%">
@@ -421,34 +421,28 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 <img src="assets/images/readme/css-validator.png" width="800" height="100%">
 </p>
 
+- [JavaScript](https://jshint.com/)
+
+<p align="center">
+<img src="assets/images/jsHint.png" width="800" height="100%">
+</p>
+
 - I used Lighthouse tools to test the website Performance (100%), Accessibility (89%), Best Practices (96%) and SEO (91%)
 <p align="center">
 <img src="./assets/images/lighthouse.png" alt="Light House Report" width="900" height="100%">
 </p>
 
-<h3 id="html-validator-report">HTML Validator Report</h3>
-
-- _Warning_ : [details of any warning]
-
-  - [actions taken to remedy it].
-
-- _Value Error_ : [details of any error]
-
-  - [actions taken to remedy it].
-
-<h3 id="css-validator-report">CSS Validator Report</h3>
-
-- _Warning_ : [details of any warning]
-
-  - [actions taken to remedy it].
-
-- _Value Error_ : [details of any error]
-
-  - [actions taken to remedy it].
-
 <h2 id="bugs-and-issues">Bugs and Issues</h2>
 
-- Detail any bug and/or issues encountered, steps taken to correct it. Add images if possible.
+- We encountered a bug where the buttons were non-selective, which we resolved by inspecting and adjusting the HTML and JavaScript.
+
+- We had an issue with initial images not displaying. We fixed this by setting the default images for the Player and Computer to the Spartan head logo.
+
+- We decided against arranging the RPSLS images in a Pentagon shape as per the wireframe due to UX design considerations.
+
+- When a game selection is clicked, the result box failed to turn red when the Player loses and green when the Player wins. We resolved this by updating the js code to change the result box color to red for a Player loss and green for a Player win using the default color to target each output.
+
+- Player score was not updating even when the computer score is updating correctly. We investigated and resolved the issue in the JavaScript code to ensure the player score is updated correctly.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -475,10 +469,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 <h3 id="content">Content</h3>
 
 - All content was written by **Mohammad Usman Butt, Chibueze Igwe, Nidhal Zarrad and Yazan El Masri**
-
-<h3 id="media2">Media</h3>
-
-- All images were taken from [Shutterstock](https://www.shutterstock.com/home) and [Unsplash photo](https://unsplash.com/)
 
 <!-- ACKNOWLEDGMENTS -->
 <h2 id="acknowledgments">Acknowledgments</h2>

@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let computerPlay;
   let start = 0;
   let roundsPlayed = 0;
   const maxRounds = 10;
