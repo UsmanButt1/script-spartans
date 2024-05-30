@@ -230,7 +230,7 @@ This project was implemented using the Agile Manifesto methodology. Below are th
 <img src="./assets/images/kanban-board.png" alt="Product Screenshot" width="100%" height="100%">
 </a>
 
-- Vision 4: Individuals and interactions over processes and tools: Daily interactions on GitHub led to **45** git commits, fostering collaboration and knowledge sharing among team members.
+- Vision 4: Individuals and interactions over processes and tools: Daily interactions on GitHub led to **46** git commits, fostering collaboration and knowledge sharing among team members.
 
 <strong>Twelve Principles of the Agile Manifesto</strong>
 
@@ -412,13 +412,13 @@ The W3C Markup Validator, W3C CSS Validator and JSHint Services were used to che
 - [HTML](https://validator.w3.org/#validate_by_input)
 
 <p align="center">
-<img src="assets/images/readme/html-validator.png" width="800" height="100%">
+<img src="assets/images/html-validation-report.png" width="800" height="100%">
 </p>
 
 - [CSS](https://jigsaw.w3.org/css-validator/)
 
 <p align="center">
-<img src="assets/images/readme/css-validator.png" width="800" height="100%">
+<img src="assets/images/css-validation-report.png" width="800" height="100%">
 </p>
 
 - [JavaScript](https://jshint.com/)
