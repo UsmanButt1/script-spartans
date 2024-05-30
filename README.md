@@ -102,7 +102,9 @@ Table of Contents
 <section>
 <h1 id="introduction">SECTION 1: INTRODUCTION </h1>
 
-This section contains summary information about the project, the user expectations and tools used in building this solution.
+This section contains summary information about this project, the user expectations and tools used in building this solution. 
+
+Script Spartans is an interactive web-based game that combines "Rock, Paper, Scissors, Lizard, Spock" with celebrity elements, featuring intuitive design, dynamic dropdowns, and engaging gameplay.
 
 <h2 id="about-the-project">About The Project</h2>
 
@@ -410,18 +412,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 - [HTML](https://validator.w3.org/#validate_by_input)- I checked each page by direct input method on HTML validator site
 
 <p align="center">
-<img src="assets/images/readme/html-validator.png" width="400" height="100%">
+<img src="assets/images/readme/html-validator.png" width="800" height="100%">
 </p>
 
 - [CSS](https://jigsaw.w3.org/css-validator/)
 
 <p align="center">
-<img src="assets/images/readme/css-validator.png" width="400" height="100%">
+<img src="assets/images/readme/css-validator.png" width="800" height="100%">
 </p>
 
 - I used Lighthouse tools to test the website Performance (100%), Accessibility (89%), Best Practices (96%) and SEO (91%)
 <p align="center">
-<img src="./assets/images/lighthouse.png" alt="Light House Report" width="400" height="100%">
+<img src="./assets/images/lighthouse.png" alt="Light House Report" width="900" height="100%">
 </p>
 
 <h3 id="html-validator-report">HTML Validator Report</h3>
@@ -472,7 +474,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 
 <h3 id="content">Content</h3>
 
-- All content was written by **Mohammad Usman Butt, Chibueze Igwe, Nidhal Zarrad AND Yazan El Masri**
+- All content was written by **Mohammad Usman Butt, Chibueze Igwe, Nidhal Zarrad and Yazan El Masri**
 
 <h3 id="media2">Media</h3>
 
@@ -483,14 +485,21 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 
 Use this space to list individuals, groups or resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-- [Malven's Grid Cheatsheet](https://grid.malven.co/)
-- [Img Shields](https://shields.io)
-- [GitHub Pages](https://pages.github.com)
-- [Font Awesome](https://fontawesome.com)
-- [React Icons](https://react-icons.github.io/react-icons/search)
+- GitHub Member - TR94: https://github.com/TR94/rock-paper-scissors-lizard-spock
+
+- YouTube Member - Competent Programming: https://www.youtube.com/watch?v=lV2BMXdsDmc
+
+- Frontend Mentor: https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH
+Resources Used
+
+- Coolors: https://coolors.co/533e36-756114-e74c3c-ecf0f1-2c3e50
+Used for colour schemes used on website.
+
+- removebg: https://www.remove.bg/upload
+Used to remove backgrounds from images.
+
+- cloudconvert: https://cloudconvert.com/svg-to-jpg
+Used to convert some images from .SVG to .JPG file formats.
 
 <!-- CONTACT -->
 
